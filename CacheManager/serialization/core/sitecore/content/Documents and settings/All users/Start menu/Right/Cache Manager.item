@@ -5,7 +5,7 @@ database: core
 path: /sitecore/content/Documents and settings/All users/Start menu/Right/Cache Manager
 parent: {10148DC7-DCA6-4ACA-AC90-46FBF59A1D1F}
 name: Cache Manager
-master: {5E8CFCF9-CEF2-4BDB-9E35-219C50184066}
+master: {00000000-0000-0000-0000-000000000000}
 template: {72450C9C-98C4-4117-88B7-573110C7E0C0}
 templatekey: Application shortcut
 created: 20191105T205712Z
@@ -149,8 +149,15 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 8da37992-8e8a-4530-96bc-00ab5ec964e8
+revision: 0aa13be3-e3a0-47e4-972f-3a1680235113
 
+----field----
+field: {BB865E67-0BE3-49D8-B8BD-1DB4B34AB2E3}
+name: Tool tip
+key: tool tip
+content-length: 13
+
+Cache Manager
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -178,14 +185,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8da37992-8e8a-4530-96bc-00ab5ec964e8
+0aa13be3-e3a0-47e4-972f-3a1680235113
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20191105T205812Z
+20191118T170601Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
