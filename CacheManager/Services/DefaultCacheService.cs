@@ -49,7 +49,7 @@
                 var prefix = match.Groups[1].Value;
                 var type = match.Groups[2].Value;
 
-                if (prefix == "core" || prefix == "mastr" || prefix == "web")
+                if (prefix == "core" || prefix == "master" || prefix == "web")
                 {
                     return new DatabaseCacheEntry(value.Count, value.Id.ToString(), value.Name, value.Size, value.RemainingSpace)
                     {
